@@ -67,6 +67,15 @@ body {
 .blue:hover, .blue:focus {
   text-decoration: none !important;
   color: black !important;
+  transition: 0.3s;
+}
+.blue1{
+  color: #01adb9 !important;
+}
+.blue1:hover, .blue1:focus {
+  text-decoration: none !important;
+  color: white !important;
+  transition: 0.3s;
 }
 .black{
   color: black !important;
@@ -74,6 +83,14 @@ body {
 .black:hover, .black:focus {
   text-decoration: none !important;
   color: #01adb9 !important;
+  transition: 0.3s;
+}
+.black1{
+  color: black !important;
+}
+.black1:hover, .black1:focus {
+  text-decoration: none !important;
+  color: white !important;
 }
 .white{
   color: white !important;
