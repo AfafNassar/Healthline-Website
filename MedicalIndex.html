@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Afaf Saleh">
 	<link href="img/h-icon.png" type="image/Png" rel="icon" sizes="180x180">
-	<meta name="viewport" content="width=device-width, initial-scale=1 ,user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=no">
 	<meta name="description" content="We&#x27;re committed to being your source for expert health guidance. Come to us in your pursuit of wellness.">
 	<meta name="keywords" content="Healthline,Clinic,Medical,Health,Doctors,Advice,Help,Support,Surgery,Trust,Experts,Emergenc,wellness,Hospital,Care">
 	<title>Healthline: Medical information and health advice you can trust.</title>
@@ -27,14 +27,12 @@
 
 
 	<header >
-		<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom border-top">
-			<div class="container">
-				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom border-top ">
+			<div class="container ">
+				
 
-				<div id="mySidenav" class="sidenav">
-					<a href="javascript:void(0)" class="closebtn black" onclick="closeNav()">&times;</a>
+				<div id="mySidenav" class="sidenav ">
+					<a href="javascript:void(0)" class="closebtn black " onclick="closeNav()">&times;</a>
 					<div>
 						<h3 class="text-white mt-3 ml-3">Health Topics <br> <hr class="my-2"></h3>
 						<a class="black1" href="#">Coronavirus</a>
@@ -51,9 +49,13 @@
 						<h3 class=" ml-0"><a class="white" href="">News</a></h3>
 						<h3 class=" ml-0"><a class="white" href="">HEALTHY LIVING</a></h3>
 					</div>
+					<div class="navbar-nav font-weight-bold insidenav  ml-5 mt-0">
+						<button class="btn btn-info rounded-pill p-2 m-0"><a href="#subs" class="nav-item nav-link active white">SUBSCRIBE</a></button>
+						<a href="#home" class="nav-item nav-link active black1 insidenav ml-4 mt-4 p-0">HOME</a> &nbsp;
+					</div>
 				</div>
 
-				<span class="mr-3 blue" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
+				<span class="mr-3 blue " style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
 
 				<script>
 					function openNav() {
@@ -65,15 +67,15 @@
 					}
 				</script>
 
-				<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-					<div class="navbar-nav font-weight-bold">
-						<a href="#home" class="nav-item nav-link active blue">HOME</a>
-						<a href="#subs" class="nav-item nav-link active blue">SUBSCRIBE</a>
+				<div class=" navbar-collapse justify-content-between " id="navbarCollapse">
+					<div class="navbar-nav font-weight-bold above">
+						<a href="#home" class="nav-item nav-link active blue">HOME</a> &nbsp;
+						<button class="btn btn-info rounded-pill p-0"><a href="#subs" class="nav-item nav-link active white">SUBSCRIBE</a></button>
 					</div>
 
-					<a href="#home" class="navbar-brands display-4 black">Healthline</a>
+					<span class="spaninline1"><a href="#home" class="navbar-brands display-4 black">Healthline</a></span>
 
-					<form class="form-inline">
+					<form class="form-inline spaninline2">
 						<div class="input-group ">                    
 							<input type="text" class="form-control border-right-0" placeholder="Search">
 							<div class="input-group-append ">
@@ -87,7 +89,7 @@
 		</nav>
 	</header>
 	<section id="home" class="bg-darklight pt-5 pb-4 mb-5">
-		<div class="container ">
+		<div>
 
 			<!--Slids-->
 			<div id="carouselExampleIndicators" class="carousel slide coursinner mb-1" data-ride="carousel">
@@ -105,7 +107,24 @@
 						<div class=" bg-dark opacity"></div>
 						<div class="carousel-caption d-none d-md-block">
 							<h3><a class="text-white" href="">7 Foods That Fight Back: Immune System Boosters</a></h3>
-
+							<div class="bg-white py-3 pl-5 col-lg-8 offset-lg-2 px-5 mt-1 rounded-pill ">
+								<div class="row">
+									<div class="col-lg-2 "><a href=""><img src="img/letter.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/sypmptom.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/drug.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/colories.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/meal.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/recipe.png"></a></div>
+								</div>
+								<div class="row text-center">
+									<div class="col-lg-2"><a class="black" href=""><b>Free<br>Newsletters</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Symptom<br>Cheker</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Drug<br>Finder</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Calorie<br>Counter</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Meal<br>Planner</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Recipes</b></a></div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="carousel-item">
@@ -113,6 +132,24 @@
 						<div class=" bg-dark opacity"></div>
 						<div class="carousel-caption d-none d-md-block">
 							<h3><a class="text-white" href="">The World Continues to Adjust as the Coronavirus Pandemic Spreads</a></h3>
+							<div class="bg-white py-3 pl-5 col-lg-8 offset-lg-2 px-5 mt-1 rounded-pill ">
+								<div class="row">
+									<div class="col-lg-2 "><a href=""><img src="img/letter.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/sypmptom.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/drug.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/colories.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/meal.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/recipe.png"></a></div>
+								</div>
+								<div class="row text-center">
+									<div class="col-lg-2"><a class="black" href=""><b>Free<br>Newsletters</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Symptom<br>Cheker</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Drug<br>Finder</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Calorie<br>Counter</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Meal<br>Planner</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Recipes</b></a></div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="carousel-item">
@@ -120,6 +157,24 @@
 						<div class=" bg-dark opacity"></div>
 						<div class="carousel-caption d-none d-md-block">
 							<h3><a class="text-white" href="">How to Start a Self-Care Routine You’ll Follow</a></h3>
+							<div class="bg-white py-3 pl-5 col-lg-8 offset-lg-2 px-5 mt-1 rounded-pill ">
+								<div class="row">
+									<div class="col-lg-2 "><a href=""><img src="img/letter.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/sypmptom.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/drug.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/colories.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/meal.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/recipe.png"></a></div>
+								</div>
+								<div class="row text-center">
+									<div class="col-lg-2"><a class="black" href=""><b>Free<br>Newsletters</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Symptom<br>Cheker</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Drug<br>Finder</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Calorie<br>Counter</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Meal<br>Planner</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Recipes</b></a></div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="carousel-item">
@@ -127,6 +182,24 @@
 						<div class=" bg-dark opacity"></div>
 						<div class="carousel-caption d-none d-md-block">
 							<h3><a class="text-white" href="">7 Tips for Staying Active During a Pandemic</a></h3>
+							<div class="bg-white py-3 pl-5 col-lg-8 offset-lg-2 px-5 mt-1 rounded-pill ">
+								<div class="row">
+									<div class="col-lg-2 "><a href=""><img src="img/letter.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/sypmptom.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/drug.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/colories.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/meal.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/recipe.png"></a></div>
+								</div>
+								<div class="row text-center">
+									<div class="col-lg-2"><a class="black" href=""><b>Free<br>Newsletters</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Symptom<br>Cheker</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Drug<br>Finder</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Calorie<br>Counter</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Meal<br>Planner</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Recipes</b></a></div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="carousel-item">
@@ -134,6 +207,24 @@
 						<div class=" bg-dark opacity"></div>
 						<div class="carousel-caption d-none d-md-block">
 							<h3><a class="text-white" href="">A Coronavirus Checklist: Prepare for the Possibility You May Get Very Sick</a></h3>
+							<div class="bg-white py-3 pl-5 col-lg-8 offset-lg-2 px-5 mt-1 rounded-pill ">
+								<div class="row">
+									<div class="col-lg-2 "><a href=""><img src="img/letter.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/sypmptom.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/drug.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/colories.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/meal.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/recipe.png"></a></div>
+								</div>
+								<div class="row text-center">
+									<div class="col-lg-2"><a class="black" href=""><b>Free<br>Newsletters</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Symptom<br>Cheker</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Drug<br>Finder</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Calorie<br>Counter</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Meal<br>Planner</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Recipes</b></a></div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="carousel-item">
@@ -141,6 +232,24 @@
 						<div class=" bg-dark opacity"></div>
 						<div class="carousel-caption d-none d-md-block">
 							<h3><a class="text-white" href="">U.S. Reports Deadliest Day, U.K. Prime Minister Still in ICU</a></h3>
+							<div class="bg-white py-3 pl-5 col-lg-8 offset-lg-2 px-5 mt-1 rounded-pill ">
+								<div class="row">
+									<div class="col-lg-2 "><a href=""><img src="img/letter.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/sypmptom.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/drug.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/colories.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/meal.png"></a></div>
+									<div class="col-lg-2"><a href=""><img src="img/recipe.png"></a></div>
+								</div>
+								<div class="row text-center">
+									<div class="col-lg-2"><a class="black" href=""><b>Free<br>Newsletters</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Symptom<br>Cheker</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Drug<br>Finder</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Calorie<br>Counter</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Meal<br>Planner</b></a></div>
+									<div class="col-lg-2"><a class="black" href=""><b>Recipes</b></a></div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -152,27 +261,7 @@
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="sr-only"></span>
 				</a>
-			</div>
-
-			<!--Under Slides-->
-			<div class="bg-white py-3 pl-5 col-lg-8 offset-lg-2 px-5 mt-4  ">
-				<div class="row">
-					<div class="col-lg-2 "><a href=""><img src="img/letter.png"></a></div>
-					<div class="col-lg-2"><a href=""><img src="img/sypmptom.png"></a></div>
-					<div class="col-lg-2"><a href=""><img src="img/drug.png"></a></div>
-					<div class="col-lg-2"><a href=""><img src="img/colories.png"></a></div>
-					<div class="col-lg-2"><a href=""><img src="img/meal.png"></a></div>
-					<div class="col-lg-2"><a href=""><img src="img/recipe.png"></a></div>
-				</div>
-				<div class="row text-center">
-					<div class="col-lg-2"><a class="black" href=""><b>Free<br>Newsletters</b></a></div>
-					<div class="col-lg-2"><a class="black" href=""><b>Symptom<br>Cheker</b></a></div>
-					<div class="col-lg-2"><a class="black" href=""><b>Drug<br>Finder</b></a></div>
-					<div class="col-lg-2"><a class="black" href=""><b>Calorie<br>Counter</b></a></div>
-					<div class="col-lg-2"><a class="black" href=""><b>Meal<br>Planner</b></a></div>
-					<div class="col-lg-2"><a class="black" href=""><b>Recipes</b></a></div>
-				</div>
-			</div>
+			</div>  
 		</div>
 	</section>
 	<section class="container">
@@ -194,27 +283,27 @@
 					</div>
 					<div class="col-lg-7 ">
 						<h5 class="small blue"><b>PARENTING</b></h5>
-						<h4><b><a class="black " href="">How I Stopped Stressing and Embraced My Kid’s Distance Learning</a></b></h4>
+						<h5><b><a class="black " href="">How I Stopped Stressing and Embraced My Kid’s Distance Learning</a></b></h5>
 						<p>It’s important for children to still have a consistent structure to their day.</p>	
 					</div>
 				</div>
-				<div class="row">
+				<div class="row my-5">
 					<div class="col-lg-5">
 						<a href=""><img class="img-fluid" src="img/Mask.jpg"></a>
 					</div>
 					<div class="col-lg-7 ">
 						<h5 class="small blue"><b>COVID-19</b></h5>
-						<h4><b><a class="black" href="">What It’s Like to Have a ‘Mild’ Case of COVID-19</a></b></h4>
+						<h5><b><a class="black" href="">What It’s Like to Have a ‘Mild’ Case of COVID-19</a></b></h5>
 						<p>While 80 percent of cases are mild, they can still take a severe toll.</p>	
 					</div>
 				</div>
-				<div class="row my-4">
+				<div class="row my-5">
 					<div class="col-lg-5">
 						<a href=""><img class="img-fluid" src="img/Cat.jpg"></a>
 					</div>
 					<div class="col-lg-7 ">
 						<h5 class="small blue"><b>MENTAL HEALTH</b></h5>
-						<h4><b><a class="black" href="">How a Pet Can Help You While You Shelter in Place</a></b></h4>
+						<h5><b><a class="black" href="">How a Pet Can Help You While You Shelter in Place</a></b></h5>
 						<p>Pets, especially dogs, can help motivate people to go outside and take breaks.</p>	
 					</div>
 				</div>
@@ -242,8 +331,8 @@
 
 	<!--Fixed middle img-->
 	<section class="fixed-drug mb-5">
-		<div class="small-white-div text-center border ">
-			<h5 class="py-3"><b><a class="blue" href="">TOP DRUG NAMES SEARCHED</a></b></h5>
+		<div class="small-white-div text-center border px-sm-3 w-50">
+			<h5 class="py-lg-3 "><b><a class="blue" href="">TOP DRUG NAMES SEARCHED</a></b></h5>
 		</div>
 		<div class="white-div container border overflow-auto">
 			<div class="row m-5">
@@ -460,39 +549,39 @@
 	</section>
 
 	<!-- Contact option-->
-	<section class="bg-darklight p-5 pb-4">
-		<div id="Contact" class="row mx-3 mb-3">
-			<div class="col-lg-3">
-				<div class="row text-center ">
-					<span class=" display-2 "><a class="blue" href=""><i class="fas fa-user-md"></i></a></span>
-					<span class="p-3" ><h3><a class="black" href="">Medical <br>Professionals</a></h3></span>
+	<section class="bg-darklight p-3">
+		<div id="Contact" class="row justify-content-sm-center">
+			<div class="col col-lg-3 col-sm-3">
+				<div class="row justify-content-sm-center text-center ">
+					<span class=" display-3"><a class="blue" href=""><i class="fas fa-user-md"></i></a></span>
+					<span class="p-3" ><h4><a class="black" href="">Medical <br>Professionals</a></h4></span>
 				</div>
 			</div>
-			<div class="col-lg-3">
-				<div class="row text-center">
-					<span class=" display-2"><a class="blue" href=""><i class="fas fa-hospital-symbol"></i></a></span>
-					<span  class="p-3"><h3><a class="black" href="">Hospitals & <br>Institution</a></h3></span>
+			<div class="col col-lg-3 col-sm-3">
+				<div class="row justify-content-sm-center text-center">
+					<span class=" display-3"><a class="blue" href=""><i class="fas fa-hospital-symbol"></i></a></span>
+					<span  class="p-3"><h4><a class="black" href="">Hospitals & <br>Institution</a></h4></span>
 				</div>
 			</div>
-			<div class="col-lg-3">
-				<div class="row text-center">
-					<span class=" display-2"><a class="blue" href=""><i class="fas fa-mobile-alt"></i></a></span>
-					<span class="p-3"><h3><a class="black" href="">UpToDate <br>Mobile</a></h3></span>
+			<div class="col col-lg-3 col-sm-3">
+				<div class="row justify-content-sm-center text-center">
+					<span class=" display-3"><a class="blue" href=""><i class="fas fa-mobile-alt"></i></a></span>
+					<span class="p-3"><h4><a class="black" href="">UpToDate <br>Mobile</a></h4></span>
 				</div>
 			</div>
-			<div class="col-lg-3 bg-success rounded-pill">
-				<div class="call row text-center p-3 pl-5">
-					<span class=" display-3 pr-4"><a class="text-white" href=""><i class="fas fa-phone-alt"></i></i></a></span>
-					<span ><h3><a class="text-white" href="">Customer <br>Support</a></h3></span>
+			<div class="col col-lg-2 col-sm-3 bg-success rounded-pill">
+				<div class="call row justify-content-sm-center text-center ">
+					<span class=" display-4 "><a class="text-white" href=""><i class="fas fa-phone-alt pt-4"></i></i></a></span>
+					<span class="pt-3" ><h4><a class="text-white" href="">Customer <br>Support</a></h4></span>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!--SUBSCRIBE -->
-	<div id="subs" class="bg-info p-2 mt-5 text-center mx-3 "><b><a class="text-white" href=""><h5> Subscribe or renew your subscription</h5></a></b></div>
+	<div id="subs" class="bg-info p-2 mt-5 text-center mx-3"><b><a class="text-white" href=""><h5> Subscribe or renew your subscription</h5></a></b></div>
 	<div class="container">
-		<div class="row my-5 pt-3">
+		<div class="row my-5 pt-3 ">
 			<div class="col-lg-6"><a href=""><img class="img-fluid" src="img/talking.jpg"></a></div>
 			<div class="col-lg-6"><a href=""><img class="img-fluid" src="img/mobile-three.jpg"></a></div>
 		</div>
@@ -520,118 +609,182 @@
 		</div>
 	</div>
 
-	<!-- Cards 2-->
-	<section class="bg-darklight mt-5 py-5">
-		<div class="container">
-			<div id="Services" class="card-deck my-3 py-5 ">
-				<div class="card shadow">
-					<img class="card-img-top" src="img/hospital.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h5 class="card-title text-center">Mayo Clinic is the No. 1 <br> hospital overall</h5>
-					</div>
-					<midum class="text-muted text-center pb-4"><a class="blue" href="">More about our #1 ranking</a></midum>
-				</div>
-				<div class="card shadow">
-					<img class="card-img-top" src="img/international.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h5 class="card-title text-center">The trusted leader <br>in healthcare worldwide</h5>
-					</div>
-					<midum class="text-muted text-center pb-4"><a class="blue" href="">International Services at Clinic</a></midum>
-				</div>
-				<div class="card shadow">
-					<img class="card-img-top" src="img/clinic.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h5 class="card-title text-center">Help Mayo Clinic transform <br>the future of health care</h5>
-					</div>
-					<midum class="text-muted text-center pb-4"><a class="blue" href="">Give now</a></midum>
-				</div>
-				<div class="card shadow">
-					<img class="card-img-top" src="img/you.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h5 class="card-title text-center">When it’s time to find answers ...</h5>
-					</div>
-					<midum class="text-muted text-center pb-4"><a class="blue" href="">You Know Where to Go</a></midum>
-				</div>
+	<!--Video About section-->
+	<div id="video" class="container">
+		<video autoplay muted loop id="myVideo">
+			<source src="img/video.mp4" type="video/mp4">
+				Your browser does not support HTML5 video.>
+			</video>
+
+			<div class="content">
+				<h1>About Us</h1>
+				<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
+				<button class="btn btn-info" id="myBtn" onclick="myFunction()">Pause</button>
 			</div>
 
-			<!-- Cards 3 locations-->
-			<h3 class="text-center mt-5">Healthline Clinic Locations</h3>
-			<div class="w-25" style="margin-left: 415px;"><hr></div>
-			<div class="card-deck mt-5 pb-5">
-				<div class="card shadow-lg">
-					<img class="card-img " src="img/mayo3.jpg" alt="Card image cap">
-				</div>
-				<div class="card shadow-lg">
-					<img class="card-img-top" src="img/mayo2.jpg" alt="Card image cap">
-				</div>
-				<div class="card shadow-lg">
-					<img class="card-img-top" src="img/mayo3.jpg" alt="Card image cap">
-				</div>
-				<div class="card shadow-lg">
-					<img class="card-img-top" src="img/mayo4.jpg" alt="Card image cap">
-				</div>
-			</div>
-			<div class="row pb-5">
-				<div class="col-lg-3 text-center"><h4><a class="blue" href="">Healthline Clinic's campus in Arizona</a></h4></div>
-				<div class="col-lg-3 text-center"><h4><a class="blue" href="">Healthline Clinic's campus in Florida</a></h4></div>
-				<div class="col-lg-3 text-center"><h4><a class="blue" href="">Healthline Clinic's campus in Minnesota</a></h4></div>
-				<div class="col-lg-3 text-center"><h4><a class="blue" href="">Healthline Clinic Health System</a></h4></div>
-			</div>
-		</div>
-	</section>
+			<script>
+				var video = document.getElementById("myVideo");
+				var btn = document.getElementById("myBtn");
 
-
-	<!--footer starts from here-->
-	<footer class="footer">
-		<div class="container bottom_border">
-			<div class="row">
-				<div class=" col-sm-4 col-md col-sm-4  col-12 col">
-					<h5 class="headin5_amrc col_white_amrc pt2 blue1">Find us</h5>
-					<!--headin5_amrc-->
-					<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-					<p ><i class="fa fa-location-arrow blue1"></i> 9878/25 sec 9 rohini 35 </p>
-					<p><i class="fa fa-phone blue1"></i>  +91-9999878398  </p>
-					<p><i class="fa fa fa-envelope blue1"></i> info@example.com  </p>
-				</div>
-				<div class=" col-sm-4 col-md  col-12 col">
-					<a href="#home"><img class="img-fluid rounded pr-4" src="img/h.jpg"></a>
-				</div>
-				<div class=" col-sm-4 col-md  col-12 col">
-					<h5 class="headin5_amrc col_white_amrc pt2 blue1">Follow us</h5>
-					<!--headin5_amrc ends here-->
-
-					<ul class="footer_ul2_amrc">
-						<li><a href="#"><i class="fab fa-twitter fleft padding-right blue1"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a class="blue1" href="#">https://www.lipsum.com/</a></p></li>
-						<li><a href="#"><i class="fab fa-twitter fleft padding-right blue1"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a class="blue1" href="#">https://www.lipsum.com/</a></p></li>
-						<li><a href="#"><i class="fab fa-twitter fleft padding-right blue1"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a class="blue1" href="#">https://www.lipsum.com/</a></p></li>
-					</ul>
-					<!--footer_ul2_amrc ends here-->
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<ul class="foote_bottom_ul_amrc">
-				<li><a class="blue1"href="#home">Home</a></li>	
-				<li><a class="blue1"href="#home">About</a></li>
-				<li><a class="blue1"href="#Services">Services</a></li>
-				<li><a class="blue1"href="#home">Pricing</a></li>
-				<li><a class="blue1"href="#Blog">Blog</a></li>
-				<li><a class="blue1"href="Contact">Contact</a></li>
-			</ul>
-			<!--foote_bottom_ul_amrc ends here-->
-			<p class="text-center">Copyright @2020  .<a class="navbar-brands text-white" href="#home">Healthline</a>| Designed With by <a class="navbar-brands text-white" href="https://www.linkedin.com/in/afaf-saleh-310a36181/" target="_blank">Afaf Saleh</a></p>
-
-			<ul class="social_footer_ul ">
-				<li><a href="https://web.facebook.com" target="_blank"><i class="fab fa-facebook-f blue1"></i></a></li>
-				<li><a href="https://twitter.com/login?lang=en" target="_blank"><i class="fab fa-twitter blue1"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/afaf-saleh-310a36181/" target="_blank"><i class="fab fa-linkedin blue1"></i></a></li>
-				<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram blue1"></i></a></li>
-			</ul>
-			<!--social_footer_ul ends here-->
+				function myFunction() {
+					if (video.paused) {
+						video.play();
+						btn.innerHTML = "Pause";
+					} else {
+						video.pause();
+						btn.innerHTML = "Play";
+					}
+				}
+			</script>
 		</div>
 
-	</footer>
+		<!-- Cards 2-->
+		<section id="Services" class="bg-darklight mt-5 py-5">
+			<div class="container">
+				<div class="row">
+					<div  class="card-deck my-3 py-5 ">
+						<div class="col-sm-6 pt-lg-5 col-lg-3">
+							<div class="card shadow">
+								<img class="card-img-top" src="img/hospital.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title text-center pb-lg-4">Mayo Clinic is the No.1 <br> hospital overall</h5>
+								</div>
+								<midum class="text-muted text-center pb-4"><a class="blue" href="">More about our #1 ranking</a></midum>
+							</div>
+						</div>
+						<div class="col-sm-6 pt-lg-5 col-lg-3">
+							<div class="card shadow">
+								<img class="card-img-top" src="img/international.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title text-center pb-lg-4">The trusted leader <br>in healthcare worldwide</h5>
+								</div>
+								<midum class="text-muted text-center pb-4"><a class="blue" href="">International Services at Clinic</a></midum>
+							</div>
+						</div>
+						<div class="col-sm-6 pt-sm-5 col-lg-3">
+							<div class="card shadow">
+								<img class="card-img-top" src="img/clinic.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title text-center">Help Mayo Clinic transform <br>the future of health care</h5>
+								</div>
+								<midum class="text-muted text-center pb-4"><a class="blue" href="">Give now</a></midum>
+							</div>
+						</div>
+						<div class="col-sm-6 pt-sm-5 col-lg-3">
+							<div class="card shadow">
+								<img class="card-img-top" src="img/you.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title text-center pb-sm-5">When it’s time to find answers ...</h5>
+								</div>
+								<midum class="text-muted text-center pb-4"><a class="blue" href="">You Know Where to Go</a></midum>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Cards 3 locations-->
+				<h3 id="location" class="text-center mt-5">Healthline Clinic Locations</h3>
+				<div class="w-25 " style="margin-left: 415px;"><hr class="above"></div>
+				<div class="row justify-content-sm-center">
+					<div class="card-deck mt-5 pb-5">
+						<div class="col-lg-3 col-sm-3">
+							<div class="row">
+								<div class="card shadow-lg">
+									<img class="card-img " src="img/mayo3.jpg" alt="Card image cap">
+								</div>
+							</div>
+							<div class="row">
+								<h4 class="text-center"><a class="blue" href="">Healthline Clinic's in Arizona</a></h4>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-3">
+							<div class="row">
+								<div class="card shadow-lg">
+									<img class="card-img-top" src="img/mayo2.jpg" alt="Card image cap">
+								</div>
+							</div>
+							<div class="row">
+								<h4 class="text-center"><a class="blue" href="">Healthline Clinic's in Florida</a></h4>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-3">
+							<div class="row">
+								<div class="card shadow-lg">
+									<img class="card-img-top" src="img/mayo3.jpg" alt="Card image cap">
+								</div>
+							</div>
+							<div class="row">
+								<h4 class="text-center"><a class="blue" href="">Healthline Clinic's in Minnesota</a></h4>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-3">
+							<div class="row">
+								<div class="card shadow-lg">
+									<img class="card-img-top" src="img/mayo4.jpg" alt="Card image cap">
+								</div>
+							</div>
+							<div class="row">
+								<h4 class="text-center"><a class="blue " href="">Healthline Clinic Health System</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
 
 
-</body>
-</html>
+		<!--footer starts from here-->
+		<footer class="footer">
+			<div class="container bottom_border">
+				<div class="row">
+					<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+						<h5 class="headin5_amrc col_white_amrc pt2 blue1">Find us</h5>
+						<!--headin5_amrc-->
+						<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+						<p ><i class="fa fa-location-arrow blue1"></i> 9878/25 sec 9 rohini 35 </p>
+						<p><i class="fa fa-phone blue1"></i>  +91-9999878398  </p>
+						<p><i class="fa fa fa-envelope blue1"></i> info@example.com  </p>
+					</div>
+					<div class=" col-sm-4 col-md  col-12 col footerpic">
+						<a href="#home"><img class="img-fluid rounded pr-4" src="img/h.jpg"></a>
+					</div>
+					<div class=" col-sm-4 col-md  col-12 col">
+						<h5 class="headin5_amrc col_white_amrc pt2 blue1">Follow us</h5>
+						<!--headin5_amrc ends here-->
+
+						<ul class="footer_ul2_amrc">
+							<li><a href="#"><i class="fab fa-twitter fleft padding-right blue1"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a class="blue1" href="#">https://www.lipsum.com/</a></p></li>
+							<li><a href="#"><i class="fab fa-twitter fleft padding-right blue1"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a class="blue1" href="#">https://www.lipsum.com/</a></p></li>
+							<li><a href="#"><i class="fab fa-twitter fleft padding-right blue1"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a class="blue1" href="#">https://www.lipsum.com/</a></p></li>
+						</ul>
+						<!--footer_ul2_amrc ends here-->
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<ul class="foote_bottom_ul_amrc">
+					<li><a class="blue1"href="#home">Home</a></li>	
+					<li><a class="blue1"href="#video">About</a></li>
+					<li><a class="blue1"href="#Services">Services</a></li>
+					<li><a class="blue1"href="#location">Locations</a></li>
+					<li><a class="blue1"href="#Blog">Blog</a></li>
+					<li><a class="blue1"href="#Contact">Contact</a></li>
+				</ul>
+				<!--foote_bottom_ul_amrc ends here-->
+				<p class="text-center">Copyright @2020  .<a class="navbar-brands text-white" href="#home">Healthline</a>| Designed With by <a class="navbar-brands text-white" href="https://www.linkedin.com/in/afaf-saleh-310a36181/" target="_blank">Afaf Saleh</a></p>
+
+				<ul class="social_footer_ul ">
+					<li><a href="https://web.facebook.com" target="_blank"><i class="fab fa-facebook-f blue1"></i></a></li>
+					<li><a href="https://twitter.com/login?lang=en" target="_blank"><i class="fab fa-twitter blue1"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/afaf-saleh-310a36181/" target="_blank"><i class="fab fa-linkedin blue1"></i></a></li>
+					<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram blue1"></i></a></li>
+				</ul>
+				<!--social_footer_ul ends here-->
+			</div>
+
+		</footer>
+
+
+	</body>
+	</html>

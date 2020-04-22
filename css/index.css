@@ -47,16 +47,16 @@ body {
 }
 /* end of side nav*/
 .coursinner{
-  width: 72% !important;
-  margin: 50px 150px 150px;
+  width: 100% !important;
+  margin: 0px;
 }
 .opacity{
   opacity: 0.5;
   position: absolute;
   top: 67%;
   left: 0%;
-  width: 800px;
-  height: 150px;
+  width: 100%;
+  height: 35%;
 }
 .bg-darklight{
   background-color: #d8ecf2;
@@ -135,6 +135,39 @@ body {
 }
 .inhertent{
   background: inherit !important;
+}
+/*Video*/
+* {
+  box-sizing: border-box;
+}
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: relative;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 }
 
 /*footer*/
@@ -218,24 +251,28 @@ footer p {
 .social_footer_ul li i { 
  width:20px; height:20px; text-align:center;
 }
+.insidenav{
+  display: none !important;
+}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .under-slide1{
-    display:  inline-block !important;
-    width: 100%;
+  .above{
+    display:  none !important;
   }
-  @media only screen and (max-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
+  .spaninline1{
+    position: absolute !important;
+    top: 3%;
+    left: 20%;
+  }
+  .spaninline2{
+    position: absolute !important;
+    top: 30%;
+    left: 63%;
+  }
+  .insidenav{
+    display: inline-block !important;
+  }
+  .footerpic{
+    margin-top: 30%;
+  }
+ 
