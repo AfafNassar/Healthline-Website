@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Afaf Saleh">
+	<link href="img/h-icon.png" type="image/Png" rel="icon" sizes="180x180">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=no">
+	<meta name="description" content="We&#x27;re committed to being your source for expert health guidance. Come to us in your pursuit of wellness.">
+	<meta name="keywords" content="Healthline,Clinic,Medical,Health,Doctors,Advice,Help,Support,Surgery,Trust,Experts,Emergenc,wellness,Hospital,Care">
+	<title>Healthline: Medical information and health advice you can trust.</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="js/bootstrap.js">
+	<link rel="stylesheet" type="text/css" href="js/index.js">
+	<link rel="stylesheet" type="text/css" href="css/all.css"> <!--load all styles -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src=”js/bootstrap.js”></script>
+
+
+	<header >
+		<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom border-top ">
+			<div class="container ">
+				
+
+				<div id="mySidenav" class="sidenav ">
+					<a href="javascript:void(0)" class="closebtn black " onclick="closeNav()">&times;</a>
+					<div>
+						<h3 class="text-white mt-3 ml-3">Health Topics <br> <hr class="my-2"></h3>
+						<a class="black1" href="#">Coronavirus</a>
+						<a class="black1" href="#">Heart Failure</a>
+						<a class="black1" href="#">Cold and Flu</a>
+						<a class="black1" href="#">High Cholesterol</a>
+					</div>
+					<div>
+						<h3 class="text-white mt-3 ml-3">Tools <br> <hr class="my-2"></h3>
+						<a class="black1" href="#">Calorie Counter</a>
+						<a class="black1" href="#">Symptom checker <br> <hr class="my-2"></a>
+					</div>
+					<div>
+						<h3 class=" ml-0"><a class="white" href="">News</a></h3>
+						<h3 class=" ml-0"><a class="white" href="">HEALTHY LIVING</a></h3>
+					</div>
+					<div class="navbar-nav font-weight-bold insidenav  ml-5 mt-0">
+						<button class="btn btn-info rounded-pill p-2 m-0"><a href="#subs" class="nav-item nav-link active white">SUBSCRIBE</a></button>
+						<a href="#home" class="nav-item nav-link active black1 insidenav ml-4 mt-4 p-0">HOME</a> &nbsp;
+					</div>
+				</div>
+
+				<span class="mr-3 blue " style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+				<script>
+					function openNav() {
+						document.getElementById("mySidenav").style.width = "400px";
+					}
+
+					function closeNav() {
+						document.getElementById("mySidenav").style.width = "0";
+					}
+				</script>
+
+				<div class=" navbar-collapse justify-content-between " id="navbarCollapse">
+					<div class="navbar-nav font-weight-bold above">
+						<a href="#home" class="nav-item nav-link active blue">HOME</a> &nbsp;
+						<button class="btn btn-info rounded-pill p-0"><a href="#subs" class="nav-item nav-link active white">SUBSCRIBE</a></button>
+					</div>
+
+					<span class="spaninline1"><a href="#home" class="navbar-brands display-4 black">Healthline</a></span>
+
+					<form class="form-inline spaninline2">
+						<div class="input-group ">                    
+							<input type="text" class="form-control border-right-0" placeholder="Search">
+							<div class="input-group-append ">
+								<button type="button" class="btn border border-left-0"><i class="blue fa fa-search"></i></button>
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<section class="bg-darklight mt-5 py-5">
+		<main class="container bg-white mt-5 p-5 shadow-lg">
+			<h2 class="blue font-italic font-weight-bold mb-5">Subscribe Us to stay on top of the COVID-19 outbreak</h2>
+			<form class="needs-validation" novalidate>
+				<div class="form-row">
+					<div class="col-md-4 mb-3">
+						<label for="validationCustom01">Full name</label>
+						<input type="text" class="form-control" id="validationCustom01" placeholder="Enter your full name"  required>
+						<div class="valid-feedback">
+							Looks good!
+						</div>
+					</div>
+					<div class="col-md-4 mb-3">
+						<label for="validationCustomUsername">Email</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="inputGroupPrepend">@</span>
+							</div>
+							<input type="text" class="form-control" id="validationCustomUsername" placeholder="Enter your email address" aria-describedby="inputGroupPrepend" required>
+							<div class="invalid-feedback">
+								Please enter your email.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="col-md-6 mb-3">
+						<label for="validationCustom03">Country</label>
+						<input type="text" class="form-control" id="validationCustom03" placeholder="Enter your country" required>
+						<div class="invalid-feedback">
+							Please provide a valid country.
+						</div>
+					</div>
+					<div class="col-md-3 mb-3">
+						<label for="validationCustom04">city</label>
+						<input type="text" class="form-control" id="validationCustom04" placeholder="Enter your city" required>
+						<div class="invalid-feedback">
+							Please provide a valid city.
+						</div>
+					</div>
+
+				</div>
+				<div class="form-group">
+					<div class="form-check">
+						<h6 class="pt-3 font-italic">Your<a class="blue" href=""> privacy</a> is important to us!</h6>
+						<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+						<label class="form-check-label" for="invalidCheck">
+							Agree to terms and conditions
+						</label>
+						<div class="invalid-feedback">
+							You must agree before submitting.
+						</div>
+					</div>
+				</div>
+				<button id="btnInsert" class="btn btn-info rounded-pill font-italic" type="submit">Subscribe</button>
+			</form>
+		</main>
+		
+		<main class="container bg-white mt-5  shadow-lg">
+			<div id="output"></div>
+
+		</main>
+	</section>
+	<script>
+//For disabling form submissions if there are invalid fields
+(function() {
+	'use strict';
+	window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+    	form.addEventListener('submit', function(event) {
+    		if (form.checkValidity() === false) {
+    			event.preventDefault();
+    			event.stopPropagation();
+    		}
+    		form.classList.add('was-validated');
+    	}, false);
+    });
+}, false);
+})();
+</script>
+<script type="text/javascript">
+	
+	const inpFirstName    = document.getElementById("validationCustom01");
+	const inpEmail        = document.getElementById("validationCustomUsername");
+	const btnInsert       = document.getElementById("btnInsert");
+	const output          = document.getElementById("output");
+
+	btnInsert.onclick = function () {
+		const key    = inpFirstName.value;
+		const value   = inpEmail.value;
+
+
+		if (key && value){
+			localStorage.setItem(key, value);
+			
+			alert("You will be redirected to a new page in 30 seconds");   
+		}
+	};
+
+	for (let i = 0; i < localStorage.length; i++) {
+		const key = localStorage.key(i);
+		const value = localStorage.getItem(key);
+
+		output.innerHTML += "<br />" + "Dear " + "<h6 class='pt-3 font-italic blue'>"+ key +"</h6>" + " We'll email you once a day as our news team publishes new and updated information about the novel coronavirus on your email" + "<h6 class='pt-3 font-italic blue'>"+ value +"</h6>" +"<br />";
+	}
+
+	
+</script>
+<script type="text/javascript">
+	function Redirect() 
+	{  
+		window.location="file:///C:/Users/windows/Documents/GitHub/Healthline-Website/MedicalIndex.html#home"; 
+		localStorage.clear();
+	}
+	setTimeout('Redirect()', 20000);
+</script>
+
+<!--footer starts from here-->
+<footer id="Footer" class="footer">
+	<div class="container bottom_border">
+		<div class="row">
+			<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+				<h5 class="headin5_amrc col_white_amrc pt2 blue1">Find us</h5>
+				<!--headin5_amrc-->
+				<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<p ><i class="fa fa-location-arrow blue1"></i> 9878/25 sec 9 rohini 35 </p>
+				<p><i class="fa fa-phone blue1"></i>  +91-9999878398  </p>
+				<p><i class="fa fa fa-envelope blue1"></i> info@example.com  </p>
+			</div>
+			<div class=" col-sm-4 col-md  col-12 col footerpic">
+				<a href="#home"><img class="img-fluid rounded pr-4" src="img/h.jpg"></a>
+			</div>
+			<div class=" col-sm-4 col-md  col-12 col">
+				<h5 class="headin5_amrc col_white_amrc pt2 blue1">Follow us</h5>
+				<!--headin5_amrc ends here-->
+
+				<ul class="footer_ul2_amrc">
+					<li><a href="#"><i class="fab fa-twitter fleft padding-right blue1"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a class="blue1" href="#">https://www.lipsum.com/</a></p></li>
+					<li><a href="#"><i class="fab fa-twitter fleft padding-right blue1"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a class="blue1" href="#">https://www.lipsum.com/</a></p></li>
+					<li><a href="#"><i class="fab fa-twitter fleft padding-right blue1"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a class="blue1" href="#">https://www.lipsum.com/</a></p></li>
+				</ul>
+				<!--footer_ul2_amrc ends here-->
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<ul class="foote_bottom_ul_amrc">
+			<li><a class="blue1"href="#home">Home</a></li>	
+			<li><a class="blue1"href="#video">About</a></li>
+			<li><a class="blue1"href="#Services">Services</a></li>
+			<li><a class="blue1"href="#location">Locations</a></li>
+			<li><a class="blue1"href="#Blog">Blog</a></li>
+			<li><a class="blue1"href="#Contact">Contact</a></li>
+		</ul>
+		<!--foote_bottom_ul_amrc ends here-->
+		<p class="text-center">Copyright @2020  .<a class="navbar-brands text-white" href="#home">Healthline</a>| Designed With by <a class="navbar-brands text-white" href="https://www.linkedin.com/in/afaf-saleh-310a36181/" target="_blank">Afaf Saleh</a></p>
+
+		<ul class="social_footer_ul ">
+			<li><a href="https://web.facebook.com" target="_blank"><i class="fab fa-facebook-f blue1"></i></a></li>
+			<li><a href="https://twitter.com/login?lang=en" target="_blank"><i class="fab fa-twitter blue1"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/afaf-saleh-310a36181/" target="_blank"><i class="fab fa-linkedin blue1"></i></a></li>
+			<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram blue1"></i></a></li>
+		</ul>
+		<!--social_footer_ul ends here-->
+	</div>
+
+</footer>
+
+
+</body>
+</html>
